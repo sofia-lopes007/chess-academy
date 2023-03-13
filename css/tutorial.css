@@ -4,80 +4,110 @@
     padding: 0%;
     box-sizing: border-box;
 }
+/*Cores*/
+:root{
+  --azul_escuro:#03045e;
+  --azul_mc:#023e8a;
+  --azul_be:#0077b6;
+  --azul_mb:#0096c7;
+  --azul_ca:#0096c7;
+  --azul_cc:#48cae4;
+  --azul_mt:#90e0ef;
+  --azul_mtc:#ade8f4;
+  --azul_Ca:#CAF0F8;
+
+}
+
+/*paleta substituta*/
+:root{
+  --verde_m:#006D77;
+  --verde_c:#83c5Be;
+  --branco_c:#EDF6F9;
+  --branco_e:#ecfcfdb2;
+   --branco_d:#dcf4fce5;
+  --rose_c:#FFDDD2;
+  --laranja_c:#e29578;
+}
 /*menu*/
 .menu{
     display: inline-block;
-    background-color:  rgb(61, 66, 62);
+    background-color:  var(--branco_c);
     width: 100%;
     height: 70px;
    
 }
+.menu h3>a{
+  color: black;
+  display: inline;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.menu>a.treino{
+  color: black;
+  left: 73%;
+  position: relative;
+  top: -8px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.menu>a.link{
+  color: black;
+  left: 75%;
+  position: relative;
+  top: -7px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+
+}
+
 
 /*os links*/
 a{
     text-decoration: none;
    
 }
-/*É para mover a lista*/
-.padrao{
-    list-style-type: none;
-}
-.padrao li a{
-    display: inline-block;
-    position: relative;
-    float: left;
-    left: 850px; 
-    top: 18px; 
-    border-radius:2px;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;  
-    margin-left: 25px;
-}
- nav li{
-    margin: 10px 10px;
-}
-.padrao a:hover{
-    color: white;
-}
-#logo a{
-    display: inline;
-    position: relative;
-    float: left;
-    color: white;
-    top: 25px;
-    left: 10%;
-    font-family:'Open Sans', sans-serif;
-}
+
 
 /*cabeçalho*/
 .box{
-    background-color: rgb(98, 144, 163);
-    position: rela;
-    margin-top: -7px;
+    background-color: black;
+    position: relative;
+    margin-top: 2px;
     width: 100%;
+    height: 49px;
     color: white;
     padding: 5px 15px;
     box-shadow: none;
 }
 .box a{
     position: relative;
-    margin:10px 13px;
-    top: -12px;
-    left:150px;
-    color: rgb(24, 20, 20);
+    margin:8px 13px;
+    top: 11px;
+    left: 10%;
+    color: rgba(255, 255, 255, 0.842);
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: bolder;
+    letter-spacing: 2px;
   
 }
-.box a:hover{
-    color: rgb(51, 48, 48);
+.box a{
+  background-color: var(--verde_c);
+  width: 20px;
+  padding: 15.6px 8px;
+  margin-top: 20px;
 }
 
 header>.home{
-    top: 2px;
-    width: 40px;
+
+    width: 30px;
     position: relative;
     display: inline-block;
     left: 120px;
@@ -93,39 +123,42 @@ header>.home{
    
   }
   section.nav ul{
-    background-color: rgb(61, 66, 62);
+    background-color: var(--branco_e);
     padding: 30px 0px;
+    
   
   }
   
   .nav ul {
     position:absolute;
-    padding: 0 3px;
+    border-right: 20px;
     left: 20px;
     margin-left: -30px;
+    border-bottom-right-radius:100%;
+    border-top-right-radius: 100%;
+    
+
   
   }
   
   .nav li {
     list-style: none;
-    padding: 5px 0px;
+    padding: 5px 10px;
     margin-left: 5px;
-     margin-top: 5px;
+    margin-top: 5px;
   }
   .nav li a {
     position: relative;
-    color: white;
+    color: var(--verde_m);
     font-size: 20px;
     text-decoration: none;
-    padding: 8px;
-    left: 18px;
-    width: 210.5px;
+    padding: 6px;
+    left: 20px;
+    width: 260.5px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bolder;
   }
   
-  
-  .nav li:hover {
-    background-color: rgba(218, 218, 218, 0.205);
-  }
   
   section a{
     display: block;
@@ -135,10 +168,17 @@ header>.home{
   
   #clear{
     padding: 0px 30px;
-    color: white;
+    color: var(--verde_c);
     margin-top: -15px;
-    font-size: 38.9px;
+    font-size: 35.9px;
     cursor: pointer;
+    font-weight: border;
+    border-radius: 5px;
+    position: relative;
+    left: -4px;
+
+
+
   }
   
   .descricao #clear{
