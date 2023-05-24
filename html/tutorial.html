@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,53 +6,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tutorial</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/tutorial.css">
+    <link rel="stylesheet" href="../css/introducao.css">
     <link rel="stylesheet" href="../css/responsividade.css">
     <script type="text/javascript" src="../java_script/tutorial.js"></script>
 </head>
 
 <body>
-    <nav class="menu">
-        <h3 id="logo">
-            <a href="#">Chess Academy</a>
-        </h3>
-        <img src="../img/perfil.png" class="perfil">
-        
-    </nav>    <!--Primeira seção-->
-    <section class="nav" >
-        <ul id="lateral">
-        <span class="material-icons" id="clear" class="lista" >menu</span>
-            <li><a href="#">Introdução</a></li>
-            <li><a href="#">Movimentos</a></li>
-            <li><a href="#">Regras</a></li>
-            <li><a href="#">Objetivo</a></li>
-            <li><a href="#">Anotação Algébrica</a></li>
-            <li><a href="#">Desenvolvimento</a></li>
-            <li><a href="#">Colunas</a></li>
-            <li><a href="#">Casas</a></li>
-            <li><a href="#">Estrutura de peão</a></li>
-            <li><a href="#">Abertura</a></li>
-            <li><a href="#">Estrátegia</a></li>
-            <li><a href="#">Meio jogo</a></li>
-            <li><a href="#">Finais</a></li>
-        </ul>
-    </section>
-<script>
-    var lista= document.querySelector(".lista");
-var nav= document.querySelector(".nav");
-lista.onclick= e =>{
-    if(!nav.classList.contains('descricao')){
-        nav.classList.add('descricao');
-    }else{
-        nav.classList.remove('descricao');
-        
-    } 
-}
-</script>
+ 
+    <aside>
+        <p> Menu </p>
+        <a href="javascript:void(0)">
+          <i class="fa fa-user-o" aria-hidden="true"></i>
+          My drive
+        </a>
+        <a href="javascript:void(0)">
+          <i class="fa fa-laptop" aria-hidden="true"></i>
+          Computers
+        </a>
+        <a href="javascript:void(0)">
+          <i class="fa fa-clone" aria-hidden="true"></i>
+          Shared with me
+        </a>
+        <a href="javascript:void(0)">
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          Starred
+        </a>
+        <a href="javascript:void(0)">
+          <i class="fa fa-trash-o" aria-hidden="true"></i>
+          Trash
+        </a>
+      </aside>
+      
+
+<!--Começo da introdução-->
+    <div class="parte">
+      <div class="parte-um">
+        <h3 id="titulo"> INTRODUÇÃO </h3>
+        <p id="p-titul">A Chess Academy, notou que tinha poucas postagens e ensinos sobre xadrez. Então, decidimos trazer estudo
+            sobre o xadrez e começamos com esse primeiro modulo o qual é o iniciante.
+            Aqui você vai aprender sobre a história do xadrez, anotação algébrica, sobre casas,
+            <strong>colunas, estrutura de peão, abertura, meio de jogo , finais, objetivo.</strong></p>
+    </div>
+    <div>
+        <h3>Como começar o estudo?</h3>
+        <p>
+            Aconselhamos o iniciante a começar pela ordem indicada.
+            A estratégia para você conseguir aprender, é pensar que xadrez é uma guerra,
+            porque xadrez existiu por estratégia de uma, por isso pensar de forma objetiva,
+            anotar as jogadas, seguir as regras e dicas te levarão a uma evolução maior no estudo.
+        </p>
+    </div>
+<hr>
+    <div class="peca">
+        <h4>Peças do xadrez e quantidade:</h4>
+
+            <img src="../img/peças.png" class="valor">
+            
+    </div>
 
 
+<div class="conteiner_dois">
+    <h3>Valores das peças:</h3>
+        
+     <table class="tabela">
+         <th colspan="2">Valores das peças </th>
+
+            <tr class="topo">
+
+            <td>Peças</td>
+            <td>Valor</td>
+
+</tr>
+    
+        <tr>
+            <td>Dama</td>
+            <td>8</td>
+</tr>
+        <tr>
+            <td>Peão</td>
+            <td>1</td>
+</tr>
+        <tr>
+            <td>Bispo</td>
+            <td>3</td>
+</tr>
+        <tr>
+            <td>Cavalo</td>
+            <td>3</td>
+</tr>
+        <tr>
+            <td>Torre</td>
+            <td>5</td>
+</tr>
+    </table>
+</div>
+
+<hr id="tt">
+
+    <div class="tabuleiro">
+     <h3>Tabulueiro</h3>
+
+     <div  class="coluna">
+        <img src="../img/tab.JPG" class="image">
+          
+        <h5>Colunas</h5>
+
+            <p>
+                 Possue colunas na horizontal, sendo:
+            <strong>A, B, C, D, E, F, G, H. </strong>
+</p>
+
+        <h5>Linhas</h5>
+        
+        <p>
+            Possue linha vertical, sendo:<strong> 1, 2, 3, 4, 5, 6, 7, 8. </strong>
+</p>
+        <h5>Casa</h5>
+
+        <p>
+            Tem cores oposta, pode ser preta e branca, como preta e azul e outras cores de acordo com o tabuleiro
+</p>
+</div>
+
+    <div class="numero">
+        <img src="../img/casas.png" class="image">
+
+        <div class="num">
+            <h5>Numeração da casa</h5>
+        
+                 <p>a numeração da casa é feita com a letra da coluna e o numero da linha</p>
+                
+      </div>
+    </div>
+  </div>
+
+</div>
 </body>
 
 </html>

@@ -1,14 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-/*Cores*/
-/*segunda cor
-background-image: linear-gradient( to left,#8091AB,#B0C7EB,#B0C7EB);
-TERCEIRA COR
-background-image: linear-gradient( to top, white,#83c5Be,#006d77fb);*/
+
 :root{
   --azul_escuro:#03045e;
   --azul_mc:#023e8a;
@@ -18,7 +17,10 @@ background-image: linear-gradient( to top, white,#83c5Be,#006d77fb);*/
   --azul_cc:#48cae4;
   --azul_mt:#90e0ef;
   --azul_mtc:#ade8f4;
-  --azul_Ca:#CAF0F8;
+  --azul_tr:#5465ff;
+  --azul_ta:#788bff;
+  --azul_tu:#9bb1ff;
+  --azul_te:#e2fdff;
 
 }
 
@@ -35,31 +37,93 @@ background-image: linear-gradient( to top, white,#83c5Be,#006d77fb);*/
 
 
 /*menu*/
-.menu{
-  display: inline-block;
-  background-color:  #a0c8f7;
+aside {
+  color: #fff;
+  width: 250px;
+  padding-left: 20px;
+  height: 1500vh;
+  background-image: linear-gradient(30deg , #0048bd, #44a7fd);
+  border-top-right-radius: 80px;
+  position: absolute;
+
+
+}
+
+aside a {
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  padding: 12px;
+  padding-left: 30px;
+  text-decoration: none;
+  -webkit-tap-highlight-color:transparent;
+}
+
+aside a:hover {
+  color: #3f5efb;
+  background: #fff;
+  outline: none;
+  position: relative;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+aside a i {
+  margin-right: 5px;
+}
+
+aside a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+
+aside a:hover::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 38px;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+aside p {
+  margin: 0;
+  padding: 40px 0;
+}
+
+body {
   width: 100%;
-  height: 70px;
-  
-}
-.menu h3>a{
-color: black;
-display: inline;
-position: relative;
-top: 16px;
-left: 32px;
-font-size: 30px;
-font-family: 'Open Sans', sans-serif;
-
-}
-.perfil{
-width: 49px;
-position: absolute;
-left: 93%;
-top: 10px;
-opacity: 0.5;
+  height: 100vh;
+  margin: 0;
 }
 
+.social {
+  height: 0;  
+}
+
+.social i:before {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  position: fixed;
+  color: #fff;
+  background: #0077B5;
+  padding: 10px;
+  border-radius: 50%;
+  top:5px;
+  right:5px;
+}
 
 
 /*os links*/
@@ -75,136 +139,25 @@ a{
    
 }
 
+/*video*/
 
-/*cabeçalho*/
-.box{
-    background-color: black;
-    position: relative;
-    margin-top: 2px;
-    width: 100%;
-    height: 49px;
-    color: white;
-    padding: 5px 15px;
-    box-shadow: none;
+.container{
+   max-width: 700px;
+   margin: 0;
+
 }
-.box a{
-    position: relative;
-    margin:8px 13px;
-    top: 11px;
-    left: 10%;
-    color: rgba(255, 255, 255, 0.842);
-    font-family:'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: bolder;
-    letter-spacing: 2px;
-  
+.video{
+  width: 100%;
+  height: 50%;
+  padding: 56.25% ;
+  position: relative;
 }
-.box a{
-  background-color: var(--verde_c);
-  width: 20px;
-  padding: 15.6px 8px;
-  margin-top: 20px;
+.video iframe{
+  width: 80%;
+  height: 50%;
+  position: absolute;
+  top:0;
+  left: 0;
+  border-radius: 10px;
+
 }
-
-header>.home{
-
-    width: 30px;
-    position: relative;
-    display: inline-block;
-    left: 120px;
-    color: wheat;
-    
-}
-
-/*sessão*/
-
-
-.nav {
-    transition: 1.3s;
-   
-  }
-    section.nav ul{
-      background-color:#dde5e7;
-      padding: 30px 0px;
-      transition: 1s; 
-    }
- 
-  
-  
-  .nav ul {
-    position:absolute;
-    border-right: 20px;
-    left: 20px;
-    margin-left: -30px;
-   
-  }
-  
-  .nav li {
-    list-style: none;
-    padding: 5px 10px;
-    margin-left: 5px;
-    margin-top: 5px;
-  }
-  .nav li a {
-    position: relative;
-    color: var(--verde_m);
-    font-size: 20px;
-    text-decoration: none;
-    padding: 6px;
-    left: 20px;
-    width: 240.5px;
-    font-family:'Open Sans', sans-serif;
-    font-weight: bolder;
-  }
-  
-  
-  section a{
-    display: block;
-    padding: 5px 10px;
-  }
-  /*Icone*/
-  
-  #clear{
-    padding: 0px 30px;
-    color: var(--verde_c);
-    margin-top: -15px;
-    font-size: 35.9px;
-    cursor: pointer;
-    font-weight: border;
-    border-radius: 5px;
-    position: relative;
-    left: -4px;
-
-
-
-  }
-  
-  .descricao #clear{
-    color: black;
-    background-image: url("/Menu.svg");
-  }
-  .descricao li{
-   display: none;
-  }
-  .descricao a{
-    cursor: none;
-  }
-  .descricao #lateral{
-    background-color: white;
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
