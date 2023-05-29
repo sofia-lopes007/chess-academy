@@ -45,8 +45,6 @@ aside {
   background-image: linear-gradient(30deg , #0048bd, #44a7fd);
   border-top-right-radius: 80px;
   position: absolute;
-
-
 }
 
 aside a {
@@ -129,14 +127,12 @@ body {
 /*os links*/
 a{
   text-decoration: none;
- 
 }
 
 
 /*os links*/
 a{
     text-decoration: none;
-   
 }
 
 /*video*/
@@ -146,6 +142,7 @@ a{
    margin: 0;
 
 }
+
 .video{
   width: 100%;
   height: 50%;
@@ -159,5 +156,4 @@ a{
   top:0;
   left: 0;
   border-radius: 10px;
-
 }
