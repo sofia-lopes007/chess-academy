@@ -41,12 +41,10 @@ aside {
   color: #fff;
   width: 250px;
   padding-left: 20px;
-  height: 1500vh;
+  height: 980vh;
   background-image: linear-gradient(30deg , #0048bd, #44a7fd);
   border-top-right-radius: 80px;
   position: absolute;
-
-
 }
 
 aside a {
@@ -97,7 +95,7 @@ aside a:hover::before {
   box-shadow: 0 -20px 0 0 #fff;
 }
 
-aside p {
+aside>p{
   margin: 0;
   padding: 40px 0;
 }
@@ -112,7 +110,7 @@ body {
   height: 0;  
 }
 
-.social i:before {
+.social i:before{
   width: 14px;
   height: 14px;
   font-size: 14px;
@@ -141,23 +139,22 @@ a{
 
 /*video*/
 
-.container{
-   max-width: 700px;
-   margin: 0;
+.conteiner{
+  padding: 40px 0px;
 
 }
 .video{
-  width: 100%;
-  height: 50%;
-  padding: 56.25% ;
-  position: relative;
+  position:relative;
+	padding-bottom:50.25%;
+	overflow:hidden;
+	margin-bottom:1em;
 }
 .video iframe{
-  width: 80%;
-  height: 50%;
-  position: absolute;
-  top:0;
-  left: 0;
-  border-radius: 10px;
-
+  position:absolute;
+	top:0;
+	left: 8%;
+	width: 85%;
+	height:120%;
+  border-radius: 5px;
+  padding-bottom: 55px;
 }

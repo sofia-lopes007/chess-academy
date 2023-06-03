@@ -40,10 +40,6 @@
     
   }
 
-  div{
-    margin-top: 50px;
-    margin-bottom: 60px;
-}
 
 #titulo_um{
     font-size: 30px;
@@ -87,62 +83,34 @@
 
 hr{
   position: relative;
-  border-top: 4px solid var(--azul_tu);   
+  border-top: 4px solid var(--azul_tu); 
+  margin: 60px 0;  
 }
 
-/*FINAL*/
+/*  Imagens*/
 
 .final{
   text-align: left;
-  margin: 0;
-
 }
+
 .final img{
   width: 30%;
+
 }
-/*RESPONSIVIDADE*/
 
-
-/*Celular*/
-
-@media (min-width:320px) and (max-width:425px){
-  .etapa_tre{
-    height: auto;
-    left: 1.5em;
-    width: 96%;
-    height: auto;
-    padding: 10px 13px;
-
-  }#titulo_um{
-    font-size: 25px;
-  }.etapa_tre p{
-     font-size: 12px;
-     height: auto;
-     width: 90%;
-
-  }.etapa_tre h3{
-    font-size: 18px;
-    width: 100%;
-  }.etapa_tre h6{
-    font-size: 16px;
-    width: 100%;
-  }.etapa_tre h5{
-    font-size: 18px;
-    width: 100%;
-    text-align: justify;
-  }.etapa_tree ul,li{
-    font-size: 12px;
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 85%;
-  }.etapa_tre ul li:before{
-    content: '\2022';
-    color: var(--azul_ta);
-    font-weight: bold;
-    padding: 0 0px;  
-  }hr{
-    width: 92%;
-    border-top: 8px solid var(--azul_tu); 
-    border-radius: 5px;
-  }
+/* imagem ao lado da imagem */
+.fin_p img{
+  width: 30%;
+  float: left;
+  padding: 5px; 
 }
+
+/* finais de bispo e cavalo*/
+
+.fin_c img{
+ margin-bottom: 20px;
+
+}
+
+
+/* Tamanho do menu nas páginas */

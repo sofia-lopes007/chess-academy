@@ -25,7 +25,7 @@
     padding: 10px 20px;
     width: 50%;
     text-align: justify;
-    top: 120px;
+    top: 100px;
     left: 20em;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -33,8 +33,7 @@
 
 #titulo_um{
     font-size: 30px;
-    color: var(--azul_tr);
-   
+    color: var(--azul_tr);  
 }
 
 #p_um{
@@ -49,7 +48,7 @@
 
 .etapa_dois h5,h6{
     font-size: 20px;
-    padding: 20px 0;
+    padding-top: 30px;
     margin-top: 20px;
     color:var(--azul_tr);
 }
@@ -69,32 +68,35 @@
   content: '\2022';
   color: var(--azul_ta);
   font-weight: bold;
+  padding: 0 5px;
 }
+
+
 /*primeira observação*/
 
 .obs_um{
     background-color: var(--branco_c);
-    padding: 20px 40px; 
+    padding: 1px 20px; 
     margin-top: 20px;
     margin-bottom: 60px;
-    margin-left: 40px;
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     line-height: 20px;
 }
 
 #obs_p{
-    margin-top: -20px;
+    margin-top: 2px;
 }
 
 hr{
   position: relative;
   border-top: 4px solid var(--azul_tu);  
-  margin: 30px 0;
+  width: 110%;
+  margin: 60px 0;
 }
 
   .mediana{
-    margin-top: 70px;
+   padding: 50px 0;
     
   }
 
@@ -109,12 +111,11 @@ hr{
 
   .obs_dois{
     background-color: var(--branco_c);
-    padding: 20px 40px; 
+    padding: 1px 20px; 
     margin-top: 20px;
     margin-bottom: 60px;
-    margin-left: 40px;
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     line-height: 20px;
 
   }
@@ -140,85 +141,25 @@ hr{
 
 
 .mj_bispo img{
-  width: 50%;
+  width: 38%;
 }
 .mj_bispo{
-  text-align: center;
+  text-align: left;
 }
 
 .conteiner{
   text-align: center;
 }
 
-/*RESPONSIVIDADE*/
+/* Tamanho do menu nas páginas */
 
-
-/*Celular*/
-
-@media (min-width:320px) and (max-width:425px){
-  .etapa_dois{
-      height: auto;
-      left: 1.5em;
-      width: 96%;
-      padding: 10px 13px;
-      
-}
-#titulo_um{
-  font-size: 25px;
-}
- p{
-  font-size: 12px;
-  width: 90%;
-  height: auto;
-}
-.etapa_dois ul,li{
-  font-size: 12px;
-  margin-top: 20px;
-  margin-left: 5px;
-  width: 90%;
-
-}
-.etapa_dois h5,h3,#posicional{
-  font-size: 18px;
-  word-spacing: -1.4px;
-  width: 100%;
-  
-}.etapa_dois h6{
-  font-size: 16px;
-  width: 70%;
-}
-.mediana p{
-  font-size: 12px;
-
-}
-.mediana>h6{
-  font-size: 16px;
-}
-.p_bispo{
-  font-size: 12px;
-}.obs_um{
-  width: 85%;
-  margin-left: 0;
-  padding: 5px 20px;
-  line-height: 18px;
-  margin-left: 0.1em;
-}#obs_p{
-  font-size: 12px;
-  height: auto;
-
-}.obs_dois{
-  width: 85%;
-  height: auto;
-  padding: 0px 8px;
-  margin-left: 0.1em;
+aside {
+  color: #fff;
+  width: 250px;
+  padding-left: 20px;
+  height: 1270vh;
+  background-image: linear-gradient(30deg , #0048bd, #44a7fd);
+  border-top-right-radius: 80px;
+  position: absolute;
 }
 
-}.topico_tres{
-  margin-top: -45px;
-  margin-bottom: -20px;
-  width: 100%;
-}hr{
-  width: 92%;
-  border-top: 8px solid var(--azul_tu); 
-  border-radius: 5px;
-}
