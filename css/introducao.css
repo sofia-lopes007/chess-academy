@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 
 :root{
     --azul_escuro:#03045e;
@@ -14,12 +18,11 @@
     --azul_ta:#6a7cf3;
     --azul_tu:#9bb1ff;
     --azul_te:#e2fdff;
-  
   }
 
-  
  /*Introdução do aluno*/
 
+<<<<<<< HEAD
 
  .introducao{
   position: relative;
@@ -52,6 +55,55 @@
   text-align: left;
   font-size: 18px;
   color: var(--azul_tr);
+=======
+ .parte{
+    position: relative;
+    top: 100px;
+  }
+  
+.parte p{
+    position: relative;
+    text-align: justify;
+    width: 50%;
+    left: 20em;
+    padding-top: 15px;
+    line-height: 24.5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parte-um{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#p-titul{
+  margin-top: 8px;
+}
+
+#titulo{
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+  left: 10em;
+  padding-top: 20px;
+  color: var(--azul_tr);
+}
+
+.parte h3,h5,h4{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    left: 16em; 
+    padding-top: 17px;
+    font-size: 20px;
+    line-height: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--azul_tr);   
+}
+
+.parte .valor,.image{
+     margin-top: 20px;
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
 
 strong{
@@ -67,6 +119,10 @@ strong{
 .valor{
   position: relative;
   padding-top: 30px;
+<<<<<<< HEAD
+=======
+  left: 21em;
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
 
 .pq h4{
@@ -95,11 +151,38 @@ strong{
 
 .tabela{
   position: relative;
+<<<<<<< HEAD
   margin: 48px 0;
+=======
+  width: 55%;
+  left: 19.5em;
+  top: 25px;
+  margin-top: 50px;
+  border: 0px;
+  border-top: 3px solid var(--azul_tu);
+}
+
+.peca{
+    position:relative;
+    top: 65px;
+}
+
+/*tabela*/
+
+.tabela {
+  position: relative;
+  left: 22em;
+  top: 40px;
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
   border: 3px solid rgb(58, 58, 58);
   width: 90%;
   background-color: var(--azul_Ca);
+<<<<<<< HEAD
   border-collapse: collapse;    
+=======
+  width: 11em;
+  border-collapse: collapse;
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
 
 .tabela td{
@@ -111,22 +194,37 @@ strong{
 .tabela th{
   padding: 5px;
   font-size: 20px;
+<<<<<<< HEAD
   background-color: var(--azul_ta);
   color: white;
   text-align: center;
 }
 
+=======
+  background-color: var(--azul_Ca);
+}
+
+.tabela td{
+  padding: 5px;
+}
+
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 .topo td{
     background-color: var(--azul_escuro);
     border: none;
     text-align: center;
+<<<<<<< HEAD
     color: white;    
+=======
+    color: white;
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
 
 
 /* Sobre o Tabuleiro */
 
 .tabuleiro{
+<<<<<<< HEAD
   margin: 60px 0px;
 }
 .image{
@@ -135,6 +233,10 @@ strong{
   float: left;
   padding-right: 20px;
   height: auto;
+=======
+   position: relative;
+   top: 225px;
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
 
 .coluna h5{
@@ -144,6 +246,7 @@ strong{
 }
 
 .tabuleiro h3{
+<<<<<<< HEAD
   font-size: 25px;
 }
 .coluna p{
@@ -154,6 +257,21 @@ strong{
 
 .img-n{
   width: 40%;
+=======
+  font-size: 30px;
+  padding: 20px;
+  left: 10em;
+  padding-top: 20px;
+  color: var(--azul_tr);
+}
+
+.coluna{
+  position: relative;
+  top: 30px;
+}
+
+.coluna img{
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
   float: left;
   padding-right: 20px;
   height: auto;
@@ -205,6 +323,22 @@ aside {
   background-image: linear-gradient(30deg , #0048bd, #44a7fd);
   border-top-right-radius: 80px;
   position: absolute;
+<<<<<<< HEAD
+=======
+  top: 450px;
+}
+
+.numero img{
+  position: relative;
+  float: left;
+  margin-right: 20px;
+}
+ 
+.num{
+  position: relative;
+  float: right;
+  top: 18px;
+>>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
 
 
