@@ -24,11 +24,14 @@
     width: 50%;
     text-align: justify;
     top: 100px;
-    left: 20em;
+    left: 25em;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .etapa_um p{
   margin-bottom: 50px;
+}
+#p_um{
+  margin-bottom: 20px;
 }
 #titulo_um{
     font-size: 30px;
@@ -44,7 +47,7 @@
 
 .etapa_um h5,h6{
     font-size: 20px;
-    padding: 25px 0;
+    padding: 20px 0;
     margin-top: 25px;
     color: var(--azul_tr);
 }
@@ -141,16 +144,13 @@
 }
 
 
-/* Tamanho do menu nas páginas */
+/* Responsividade para telas maiores */
 
-aside {
-  color: #fff;
-  width: 250px;
-  padding-left: 20px;
-  height: 1160vh;
-  background-image: linear-gradient(30deg , #0048bd, #44a7fd);
-  border-top-right-radius: 80px;
-  position: absolute;
+@media (max-width:  1920px) and (min-width:  1680px){
+  .etapa_um{
+    width: 39.8%;
+    left: 40em;
+  }
+  
 }
-
 

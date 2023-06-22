@@ -40,15 +40,15 @@
 aside {
   color: #fff;
   width: 250px;
+  height: 100vh;
   padding-left: 20px;
-  height: 980vh;
-  background-image: linear-gradient(30deg , #0048bd, #44a7fd);
+  background-color: var(--azul_tr);
   border-top-right-radius: 80px;
-  position: absolute;
+  position: fixed;
 }
 
 aside a {
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
   display: block;
   padding: 12px;
@@ -65,7 +65,6 @@ aside a:hover {
   background-color: #fff;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  cursor: pointer;
 }
 
 aside a i {
@@ -128,12 +127,14 @@ body {
 /*os links*/
 a{
   text-decoration: none;
+ 
 }
 
 
 /*os links*/
 a{
     text-decoration: none;
+   
 }
 
 /*video*/
@@ -142,7 +143,6 @@ a{
   padding: 40px 0px;
 
 }
-
 .video{
   position:relative;
 	padding-bottom:50.25%;
@@ -150,7 +150,6 @@ a{
 	margin-bottom:1em;
 }
 .video iframe{
-<<<<<<< HEAD
   position:absolute;
 	top:0;
 	left: 8%;
@@ -158,12 +157,29 @@ a{
 	height:120%;
   border-radius: 5px;
   padding-bottom: 55px;
-=======
-  width: 80%;
-  height: 50%;
-  position: absolute;
-  top:0;
-  left: 0;
-  border-radius: 10px;
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
+
+img{
+  border-radius: 10px;
+}
+
+/* Barra de rolagem */
+
+
+
+  @media (max-width:  1920px) and (min-width:  1680px){
+    aside{
+     width: 290px;
+    }.video iframe{
+      position:absolute;
+      top:0;
+      left: 8%;
+      width: 80%;
+      height:120%;
+      border-radius: 5px;
+      padding-bottom: 55px;
+    }
+    
+    
+  }
+  

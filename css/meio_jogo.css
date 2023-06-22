@@ -26,7 +26,7 @@
     width: 50%;
     text-align: justify;
     top: 100px;
-    left: 20em;
+    left: 25em;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -38,7 +38,7 @@
 
 #p_um{
     margin-top: 8px;
-    
+ 
 }
 .etapa_dois p{
     padding: 20px 0;
@@ -54,7 +54,7 @@
 }
 
 .etapa_dois ul,li{
-    width: 95%;
+    width: 100%;
     padding-bottom: 20px;
     margin-top: 25px;
   }
@@ -95,10 +95,6 @@ hr{
   margin: 60px 0;
 }
 
-  .mediana{
-   padding: 50px 0;
-    
-  }
 
   .mediana>h5{
     font-size: 30px;
@@ -120,29 +116,18 @@ hr{
 
   }
 
-  .topico_tres{
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
   #posicional{
     font-size: 30px;
     padding-bottom: 20px;
   }
 
-.topico_quatro{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 
-.topico_quatro p{
-    margin-top: 10px;
-}
+
+
 
 .mj_bispo img{
   width: 38%;
 }
-
 .mj_bispo{
   text-align: left;
 }
@@ -153,13 +138,30 @@ hr{
 
 /* Tamanho do menu nas páginas */
 
-aside {
-  color: #fff;
-  width: 250px;
-  padding-left: 20px;
-  height: 1270vh;
-  background-image: linear-gradient(30deg , #0048bd, #44a7fd);
-  border-top-right-radius: 80px;
-  position: absolute;
+
+/* imagem do meio jogo */
+
+.img_mj img{
+  width: 38%;
+  float: right;
+  margin-top: 80px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.img_mj{
+  text-align: left;
+
+  
+}
+
+/* Responsiovidade no meio jogo */
+
+
+@media (max-width:  1920px) and (min-width:  1680px){
+  .etapa_dois{
+    width: 39.8%;
+    left: 40em;
+  }
+  
 }
 

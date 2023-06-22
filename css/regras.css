@@ -1,3 +1,24 @@
+
+
+:root{
+    --azul_escuro:#03045e;
+    --azul_mc:#023e8a;
+    --azul_be:#0077b6;
+    --azul_mb:#0096c7;
+    --azul_ca:#0096c7;
+    --azul_cc:#48cae4;
+    --azul_mt:#90e0ef;
+    --azul_mtc:#ade8f4;
+    --azul_tr:#5473ff;
+    --azul_ta:#6a7cf3;
+    --azul_tu:#9bb1ff;
+    --azul_te:#e2fdff;
+  
+  }
+
+
+
+
 *{
     margin: 0%;
     padding: 0%;
@@ -7,22 +28,27 @@
 
 .part{
     position: relative;
+    padding: 10px 20px;
+    width: 50%;
+    padding-bottom: 40px;
+    text-align: justify;
     top: 100px;
+    left: 25em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #cp{
+    margin-top: 12%;
+    margin-bottom: -5px;
   }
   
 .part p{
-    position: relative;
-    text-align: justify;
-    width: 50%;
-    left: 20em;
-    padding-top: 15px;
-    line-height: 24.5px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
 }
 
 .part-um{
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
   
 .titul-p{
@@ -31,47 +57,50 @@
   
 .titul{
     font-size: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 20px;
-    left: 10em;
-    padding-top: 20px;
     color: var(--azul_tr);
     text-align: center;
+    margin-bottom: 20px;
 }
   
   .part h3,h5,h4{
-      position: relative;
-      text-align: left;
-      width: 50%;
-      left: 16em; 
-      padding-top: 17px;
-      font-size: 20px;
-      line-height: 18px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      color: var(--azul_tr);   
+    font-size: 20px;
+    margin-top: 20px;
+    color:var(--azul_tr);
 }
 
 hr{
-    position: relative;
-    width: 55%;
-    left: 19.5em;
-    top: 25px;
-    margin-top: 50px;
-    border: 0px;
+   
     border-top: 3px solid var(--azul_tu);
 }
 
-img{
+table{
+  border: 0px solid white ;
+  margin-bottom: 40px;
+  
+}
+.roque img{
     position: relative;
-    display: inline-block;
-    left: 20rem;
-    top: 3rem;
+    margin-top: 20px;
     width: 200px;
     height: 200px;
 }
 
-#video{
-    position: relative;
-    left: 25rem;
-    top: 12rem;
+.roque td{
+  padding-right: 50px;
+  color:  black;
+  font-weight: bold;
+ 
+}
+
+.conteiner{
+    padding: 40px 0px;
+  
+  }
+  
+  
+@media (max-width:  1920px) and (min-width:  1680px){
+  .part{
+    width: 39.8%;
+    left: 40em;
+  }
 }

@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 
 
-=======
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 
 :root{
     --azul_escuro:#03045e;
@@ -18,11 +14,12 @@
     --azul_ta:#6a7cf3;
     --azul_tu:#9bb1ff;
     --azul_te:#e2fdff;
+  
   }
 
+  
  /*Introdução do aluno*/
 
-<<<<<<< HEAD
 
  .introducao{
   position: relative;
@@ -30,7 +27,7 @@
   width: 50%;
   text-align: justify;
   top: 100px;
-  left: 20em;
+  left: 25em;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
   }
@@ -55,55 +52,6 @@
   text-align: left;
   font-size: 18px;
   color: var(--azul_tr);
-=======
- .parte{
-    position: relative;
-    top: 100px;
-  }
-  
-.parte p{
-    position: relative;
-    text-align: justify;
-    width: 50%;
-    left: 20em;
-    padding-top: 15px;
-    line-height: 24.5px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.parte-um{
-  position: relative;
-  margin-bottom: 50px;
-}
-
-#p-titul{
-  margin-top: 8px;
-}
-
-#titulo{
-  font-size: 30px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 20px;
-  left: 10em;
-  padding-top: 20px;
-  color: var(--azul_tr);
-}
-
-.parte h3,h5,h4{
-    position: relative;
-    text-align: left;
-    width: 50%;
-    left: 16em; 
-    padding-top: 17px;
-    font-size: 20px;
-    line-height: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--azul_tr);   
-}
-
-.parte .valor,.image{
-     margin-top: 20px;
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
 
 strong{
@@ -114,75 +62,51 @@ strong{
 
 
 /* Tabela de  peça */
-
-
-.valor{
-  position: relative;
-  padding-top: 30px;
-<<<<<<< HEAD
-=======
-  left: 21em;
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
-}
-
-.pq h4{
-  font-size: 25px;
-}
-
 .pq{
-  position:relative;
-  margin-top: 60px;
-  margin-left: 0;
-}
-.pq>img{
-  width: 70%;  
+  padding: 20px 0;
 }
 
+.tb-pq{
+  position: relative;
+  width: 30%;
+  height: auto;
+  border-collapse: collapse; 
+}
+
+.tb-pq td{
+  border: 2px solid rgb(230, 228, 228);
+  text-align: center;
+  margin: 50px 0;
+  padding: 10px 6px;
+}
+.tb-pq th{
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  background-color: var(--azul_ta);
+  color: white;
+  border-collapse: collapse;
+  
+}
+
+.tb-img{
+  width: 32px;
+}
 /*tabela de valores das peças*/
 
 
 .conteiner_dois{
   margin: 70px 0;
 }
-.conteiner_dois h4{
-  font-size: 20px;
-}
 
 
 .tabela{
   position: relative;
-<<<<<<< HEAD
-  margin: 48px 0;
-=======
+  margin: 20px 0;
   width: 55%;
-  left: 19.5em;
-  top: 25px;
-  margin-top: 50px;
-  border: 0px;
-  border-top: 3px solid var(--azul_tu);
-}
-
-.peca{
-    position:relative;
-    top: 65px;
-}
-
-/*tabela*/
-
-.tabela {
-  position: relative;
-  left: 22em;
-  top: 40px;
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
-  border: 3px solid rgb(58, 58, 58);
-  width: 90%;
   background-color: var(--azul_Ca);
-<<<<<<< HEAD
-  border-collapse: collapse;    
-=======
-  width: 11em;
-  border-collapse: collapse;
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
+  border-collapse: collapse; 
+  
 }
 
 .tabela td{
@@ -194,37 +118,23 @@ strong{
 .tabela th{
   padding: 5px;
   font-size: 20px;
-<<<<<<< HEAD
   background-color: var(--azul_ta);
   color: white;
   text-align: center;
 }
 
-=======
-  background-color: var(--azul_Ca);
-}
-
-.tabela td{
-  padding: 5px;
-}
-
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 .topo td{
-    background-color: var(--azul_escuro);
+    background-color: var(--azul_tr);
+    font-weight: bold;
     border: none;
     text-align: center;
-<<<<<<< HEAD
     color: white;    
-=======
-    color: white;
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
 
 
 /* Sobre o Tabuleiro */
 
 .tabuleiro{
-<<<<<<< HEAD
   margin: 60px 0px;
 }
 .image{
@@ -233,11 +143,8 @@ strong{
   float: left;
   padding-right: 20px;
   height: auto;
-=======
-   position: relative;
-   top: 225px;
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
 }
+
 
 .coluna h5{
   font-size: 18px;
@@ -246,7 +153,6 @@ strong{
 }
 
 .tabuleiro h3{
-<<<<<<< HEAD
   font-size: 25px;
 }
 .coluna p{
@@ -254,29 +160,21 @@ strong{
 }
 
 /* numero do tabuleiro */
-
+ .tb-n{
+  margin-top: 20px;
+  display: block;
+  float: right;
+  margin-bottom: 90px;
+ }
 .img-n{
   width: 40%;
-=======
-  font-size: 30px;
-  padding: 20px;
-  left: 10em;
-  padding-top: 20px;
-  color: var(--azul_tr);
-}
-
-.coluna{
-  position: relative;
-  top: 30px;
-}
-
-.coluna img{
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
   float: left;
   padding-right: 20px;
-  height: auto;
 }
 
+.num{
+  margin-bottom: 40px;
+}
 .num h5{
   padding:10px 0;
   font-size: 18px;
@@ -291,16 +189,15 @@ strong{
 
 .conteiner h3{
   font-size: 25px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  
 }
 .conteiner{
   position: relative;
   margin-top: 150px;
 }
 
-.video iframe{
-  left: 0px;
-}
 
 
 
@@ -315,38 +212,18 @@ hr{
 
 /* Tamanho do menu nas páginas */
 
-aside {
-  color: #fff;
-  width: 250px;
-  padding-left: 20px;
-  height: 430vh;
-  background-image: linear-gradient(30deg , #0048bd, #44a7fd);
-  border-top-right-radius: 80px;
-  position: absolute;
-<<<<<<< HEAD
-=======
-  top: 450px;
+@media (max-width:  1920px) and (min-width:  1680px){
+  .introducao{
+    width: 39.8%;
+    left: 40em;
+  }.tabuleiro{
+    line-height: 30px;
+    width: 97%;
+  }.tb-n{
+    
+  }
+  
 }
-
-.numero img{
-  position: relative;
-  float: left;
-  margin-right: 20px;
-}
- 
-.num{
-  position: relative;
-  float: right;
-  top: 18px;
->>>>>>> 053db9b69ff85c4dc06aaa26be947739e7c95c23
-}
-
-
-
-
-
-
-
 
 
 

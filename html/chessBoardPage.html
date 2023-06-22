@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/chessBoardStyle.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="../js/chessBoard.js"></script>
+    <title>Quiz</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Chess Academy</h1>
+    </header>
+    <main>
+        
+        <!--elementos com a classe 'questão ficarão ocultos até que o desafio(atividade) seja iniciado por meio do botão de valor 'Fazer Desafio'-->
+        <section>
+            <h1 class='title'></h1>
+            <div class="content">
+                <span class="spnQtd"></span>
+                <span class="question"></span>
+                <span class="answers"></span>
+            </div>
+            <div class="finish">
+                <span></span>
+                <p></p>
+                <button>Reiniciar</button>
+            </div>
+            <div id="tabuleiro"></div>
+        </section>
+        
+    </main>
+    <footer>
+        <table id="tableFooter">
+            <tr>
+                <td><a href="introducao.html">Introdução</a></td>
+                <td><a href="Objetivo.HTML">Objetivo</a></td>
+                <td><a href="Meio jogo.HTML">Meio Jogo</a></td>
+            </tr>
+            <tr>
+                <td><a href="Regras.HTML">Regras</a></td>
+                <td><a href="Estrutura de peao.HTML">Estrutura de Peão</a></td>
+                <td><a href="Abertura.HTML">Abertura</a></td>
+            </tr>
+            <tr>
+                <td><a href="notacao.html">Notação Algébrica</a></td>
+                <td><a href="Final.HTML">Finais</a></td>
+                <td><a href="chessBoardPage.html">Desafios</a></td>
+            </tr>
+        </table><br>
+        <p>Produzido para o TCC da ETEC de Hortolândia</p>
+        <p>&copyChessAcademy</p>
+    </footer>
+    <script type="module" src="../js/quiz.js"></script>
+</body>
+</html>

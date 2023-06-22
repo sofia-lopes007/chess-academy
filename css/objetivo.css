@@ -6,23 +6,20 @@
 }
 
 .part{
+    
     position: relative;
+    padding: 10px 20px;
+    width: 50%;
+    text-align: justify;
     top: 100px;
+    left: 25em;
+    padding-bottom: 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
 .part p{
-    position: relative;
-    text-align: justify;
-    width: 50%;
-    left: 20em;
-    padding-top: 15px;
-    line-height: 24.5px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    margin-bottom: 10px;
 
-.part-um{
-    position: relative;
-    margin-bottom: 50px;
 }
   
 .titul-p{
@@ -31,31 +28,41 @@
   
 .titul{
     font-size: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 20px;
-    left: 10em;
-    padding-top: 20px;
     color: var(--azul_tr);
-    text-align: center;
+    margin-bottom: 20px;
+    
 }
   
   .part h3,h5,h4{
       position: relative;
       text-align: left;
-      width: 50%;
-      left: 16em; 
-      padding-top: 17px;
       font-size: 20px;
-      line-height: 18px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      color: var(--azul_tr);   
+      color: var(--azul_tr);
+      padding-top: 20px;
 }
 
-img{
-    position: relative;
-    display: inline-block;
-    left: 20rem;
-    top: 3rem;
-    width: 200px;
-    height: 200px;
+.conteiner{
+    margin-top: -10px;
+    margin-bottom: -50px;
 }
+
+.conteiner #afogado{
+    float: left;
+    margin-right: 30px;    
+}
+.conteiner img{
+    position: relative;
+    width: 38%;
+
+}
+.conteiner #afogado_p{
+    margin-top: -23px;
+}
+
+@media (max-width:  1920px) and (min-width:  1680px){
+    .part{
+      width: 39.8%;
+      left: 40em;
+    }
+  }
+  

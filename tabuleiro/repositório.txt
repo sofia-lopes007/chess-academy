@@ -1,0 +1,5 @@
+Onde colocar os arquivos?
+
+1- pasta "pecas" fica dentro da pasta "img"
+2- arquivo html fica na pasta "html"
+3- arquivo css fica na pasta "css"
